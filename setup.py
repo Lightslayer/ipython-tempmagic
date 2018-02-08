@@ -25,6 +25,8 @@ setup(
     # Author details
     author='Takafumi Arakaki',
     author_email='aka.tkf@gmail.com',
+    maintainer='Liam Deacon',
+    maintainer_email='liam.m.deacon@gmail.com',
 
     # Choose your license
     license='',
@@ -43,6 +45,7 @@ setup(
     # What does your project relate to?
     keywords='ipython jupyter notebook tempfile tempdir',
 
+    packages={'tempmagic':''},
     py_modules=['tempmagic.py'],
     install_requires=install_requires,
 )
